@@ -7,8 +7,10 @@ interface IHeaderProps {
 
 const Header: React.FunctionComponent<IHeaderProps> = () => {
     return (<header>
-        <Navbar />
-        <Hero />
+        <div className="mx-auto container">
+            <Navbar />
+            <Hero />
+        </div>
     </header>);
 };
 
