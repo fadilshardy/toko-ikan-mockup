@@ -35,7 +35,7 @@ const Testimonials: React.FunctionComponent<ITestimonialsProps> = (props) => {
     return <section className="py-28 container mx-auto pt-64 lg:pt-32  pb-64">
         <div className="flex flex-col items-center pb-28">
             <h2 className="font-bold text-5xl pb-8">Testimonial</h2>
-            <p className="font-medium text-neutral-400 w-1/2 mx-auto text-center">A Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's  standard dummy text </p>
+            <p className="font-medium text-neutral-400 w-1/2 mx-auto text-center">A Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s  standard dummy text </p>
         </div>
         <div className="flex gap-8 flex-col lg:flex-row  overflow-hidden p-4">
             {testimonials.map(testimonial => <Testimonial key={testimonial.avatar} avatar={testimonial.avatar} name={testimonial.name} content={testimonial.content} star={testimonial.star} />)}

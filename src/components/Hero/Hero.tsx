@@ -14,10 +14,10 @@ const Hero: React.FunctionComponent<IHeroProps> = (props) => {
                 </div>
                 <div className="flex pt-16 gap-6">
                     <div className="relative lg:w-52 lg:h-16 w-36 h-12">
-                        <Image src="/images/googleplay-button.svg" alt="Google Playstore Button" loading="lazy" fill={true} />
+                        <Image src="/images/googleplay-button.svg" alt="Google Playstore Button" loading="lazy" layout="fill" />
                     </div>
                     <div className="relative lg:w-52 lg:h-16 w-36 h-12">
-                        <Image src="/images/applestore-button.svg" alt="Applestore Button" loading="lazy" fill={true} />
+                        <Image src="/images/applestore-button.svg" alt="Applestore Button" loading="lazy" layout="fill" />
                     </div>
                 </div>
                 <div className="flex gap-12 pt-14">
@@ -34,13 +34,13 @@ const Hero: React.FunctionComponent<IHeroProps> = (props) => {
             <div className="w-full hidden lg:block">
                 <div className="relative h-full w-full">
                     <div className=" relative top-0 -right-44 h-4/5 min-w-[calc(120%)]">
-                        <Image src="/images/group 108.png" alt="background pattern" fill={true} quality="100" />
+                        <Image src="/images/group 108.png" alt="background pattern" layout="fill" quality="100" />
                     </div>
                     <div className="absolute -left-2 top-0 h-96 w-[327px] object-contain">
-                        <Image src="/images/floating-fish.png" alt="background pattern" fill={true} quality="100" />
+                        <Image src="/images/floating-fish.png" alt="background pattern" layout="fill" quality="100" />
                     </div>
                     <div className="absolute -bottom-40 left-32 h-[887px] w-full">
-                        <Image src="/images/mobileapp-hero.png" alt="Mobile App Hero" fill={true} quality="100" className="object-contain" />
+                        <Image src="/images/mobileapp-hero.png" alt="Mobile App Hero" layout="fill" quality="100" className="object-contain" />
                     </div>
                 </div>
             </div>

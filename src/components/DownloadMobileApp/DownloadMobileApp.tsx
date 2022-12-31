@@ -12,17 +12,17 @@ const DownloadMobileApp: React.FunctionComponent<IDownloadMobileAppProps> = (pro
         <p className=" pt-8 leading-7 font-medium ">A Lorem Ipsum is simply dummy text of the printing and </p>
         <div className="flex pt-16 gap-6 ">
           <div className="relative lg:w-52 lg:h-16 w-36 h-12">
-            <Image src="/images/googleplay-button.svg" alt="Google Playstore Button" loading="lazy" fill={true} />
+            <Image src="/images/googleplay-button.svg" alt="Google Playstore Button" loading="lazy" layout="fill" />
           </div>
           <div className="relative lg:w-52 lg:h-16 w-36 h-12">
-            <Image src="/images/applestore-button.svg" alt="Applestore Button" loading="lazy" fill={true} />
+            <Image src="/images/applestore-button.svg" alt="Applestore Button" loading="lazy" layout="fill" />
           </div>
         </div>
 
       </div>
     </div>
     <div className="hidden lg:block absolute bottom-0 left-96 min-h-[calc(120%)] w-full">
-      <Image src="/images/courier.png" alt="background pattern" fill={true} quality="100" className="object-contain" />
+      <Image src="/images/courier.png" alt="background pattern" layout="fill" quality="100" className="object-contain" />
     </div>
   </section >;
 };

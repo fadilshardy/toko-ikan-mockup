@@ -13,10 +13,10 @@ const Testimonial: React.FunctionComponent<ITestimonialProps> = ({ avatar, name,
         <div className="flex w-full">
             <div className="flex  justify-between w-full items-center gap-4">
                 <div className="relative w-14 h-14">
-                    <Image src={avatar} alt={name} fill={true} className="object-cover" />
+                    <Image src={avatar} alt={name} layout="fill" className="object-cover" />
                 </div>
                 {star && <div className="relative w-32 h-6">
-                    <Image src={star} alt="rating" fill={true} className="object-contain" />
+                    <Image src={star} alt="rating" layout="fill" className="object-contain" />
                 </div>}
             </div>
         </div>

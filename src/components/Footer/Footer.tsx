@@ -12,11 +12,11 @@ const Footer: React.FunctionComponent<IFooterProps> = () => {
             <div className="flex justify-center items-center flex-col lg:flex-row">
                 <div className="flex flex-col items-center lg:items-start px-2">
                     <div className="relative w-36 h-16">
-                        <Image src="/images/JBG Logo.png" fill={true} alt="JBG Logo" className="object-contain" />
+                        <Image src="/images/JBG Logo.png" layout="fill" alt="JBG Logo" className="object-contain" />
                     </div>
 
                     <p className="max-w-xl mt-4 text-netural text-justify ">
-                        A Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's  standard.
+                        A Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s  standard.
                     </p>
                     <ul className="flex gap-5 mt-8">
                         <li>
@@ -24,7 +24,7 @@ const Footer: React.FunctionComponent<IFooterProps> = () => {
                                 className="text-gray-700 transition hover:opacity-75"
                             >
                                 <div className="relative w-12 h-12">
-                                    <Image src="/images/fb-icon.png" fill={true} alt="Facebook Logo" className="object-contain" />
+                                    <Image src="/images/fb-icon.png" layout="fill" alt="Facebook Logo" className="object-contain" />
                                 </div>
                             </a>
                         </li>
@@ -33,7 +33,7 @@ const Footer: React.FunctionComponent<IFooterProps> = () => {
                                 className="text-gray-700 transition hover:opacity-75"
                             >
                                 <div className="relative w-12 h-12">
-                                    <Image src="/images/twitter-icon.png" fill={true} alt="Twitter Logo" className="object-contain" />
+                                    <Image src="/images/twitter-icon.png" layout="fill" alt="Twitter Logo" className="object-contain" />
                                 </div>
                             </a>
                         </li>
@@ -43,7 +43,7 @@ const Footer: React.FunctionComponent<IFooterProps> = () => {
                                 className="text-gray-700 transition hover:opacity-75"
                             >
                                 <div className="relative w-12 h-12">
-                                    <Image src="/images/instagram-icon.png" fill={true} alt="Instagram Logo" className="object-contain" />
+                                    <Image src="/images/instagram-icon.png" layout="fill" alt="Instagram Logo" className="object-contain" />
                                 </div>
                             </a>
                         </li>
