@@ -5,7 +5,7 @@ interface INavbarProps {
 }
 
 const Navbar: React.FunctionComponent<INavbarProps> = () => {
-    return <div className="flex w-full py-11 items-center px-4">
+    return <div className="flex w-full py-11 items-center px-">
         <h1 className="text-[#F2572E] text-2xl whitespace-nowrap font-medium "><Link href="#">Toko Ikan</Link></h1>
         <nav className="w-full">
             <ul className="gap-14 justify-center font-medium text-lg hidden lg:flex">

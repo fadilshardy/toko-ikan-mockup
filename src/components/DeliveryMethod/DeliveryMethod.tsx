@@ -6,7 +6,7 @@ interface IDeliveryMethodProps {
 
 const DeliveryMethod: React.FunctionComponent<IDeliveryMethodProps> = (props) => {
     return <section className="container mx-auto">
-        <div className="flex lg:justify-between lg:pt-32 lg:flex-row flex-col pb-64">
+        <div className="flex  pt-64 lg:justify-between lg:pt-32 lg:flex-row flex-col pb-64">
             <div className="w-full flex flex-col items-center lg:items-start mb-32 lg:mb-0">
                 <div className="max-w-lg flex items-center flex-col justify-center h-full">
                     <h2 className="font-bold lg:text-5xl text-4xl  tracking-wide lg:leading-[72px] leading-10 text-center lg:text-start">Berbagai Metode Pengiriman</h2>
