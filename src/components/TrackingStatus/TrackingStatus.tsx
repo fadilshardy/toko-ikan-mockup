@@ -11,7 +11,7 @@ const TrackingStatus: React.FunctionComponent<ITrackingStatusProps> = (props) =>
                 <div className="max-w-xl flex items-center flex-col justify-center h-full">
                     <h2 className="font-bold lg:text-5xl text-4xl  tracking-wide lg:leading-[72px] leading-10 text-center lg:text-start">Lacak status pengiriman anda</h2>
                     <p className="text-netural pt-8 text-justify px-2">
-                        A Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s  standard dummy text ever since the 1500s, when an unknown.
+                        A Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s  standard dummy text ever since the 1500s, when an unknown.
                         A Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     </p>
                 </div>

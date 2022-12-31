@@ -10,7 +10,7 @@ const ScheduleCheck: React.FunctionComponent<IScheduleCheckProps> = (props) => {
             <div className="w-full flex flex-col items-center lg:items-start mb-32 lg:mb-0">
                 <div className="max-w-lg flex items-center flex-col justify-center h-full">
                     <h2 className="font-bold lg:text-5xl text-4xl tracking-wide lg:leading-[72px] leading-10 text-center lg:text-start">Cek schedule pengiriman anda</h2>
-                    <p className="text-netural pt-8 text-justify px-2">A Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s  standard.</p>
+                    <p className="text-netural pt-8 text-justify px-2">A Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s  standard.</p>
                 </div>
             </div>
             <div className="w-full">

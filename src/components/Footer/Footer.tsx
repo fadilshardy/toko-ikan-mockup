@@ -16,7 +16,7 @@ const Footer: React.FunctionComponent<IFooterProps> = () => {
                     </div>
 
                     <p className="max-w-xl mt-4 text-netural text-justify ">
-                        A Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s  standard.
+                        A Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s  standard.
                     </p>
                     <ul className="flex gap-5 mt-8">
                         <li>
