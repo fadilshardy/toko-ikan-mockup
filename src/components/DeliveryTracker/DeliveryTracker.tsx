@@ -8,8 +8,8 @@ const DeliveryTracker: React.FunctionComponent<IDeliveryTrackerProps> = (props) 
         <div className="h-full lg:h-80  bg-cover bg-center text-white w-full bg-[url('https://i.imgur.com/msS6T0b.png')]">
             <div className=" flex flex-col items-center py-6 h-full">
                 <div className="h-full w-10/12 rounded-lg pb-6">
-                    <h3 className="pb-8 text-center lg:text-4xl text-3xl font-semibold leading-10 tracking-wide">Lacak Pengiriman Anda</h3>
-                    <p className="mb-2 leading-7 md:text-lg text-sm text-justify">A Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                    <h3 className="pb-2 text-center lg:text-4xl text-3xl font-semibold leading-10 tracking-wide">Lacak Pengiriman Anda</h3>
+                    <p className="text-gray-50 pt-8 text-justify px-2 text-lg">A Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
                 </div>
 
                 <div className="flex h-full w-10/12 items-center justify-between gap-x-6">
