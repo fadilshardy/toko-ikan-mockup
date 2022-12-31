@@ -15,6 +15,10 @@ export default function Document() {
           rel="stylesheet"
         />
 
+        <link rel="stylesheet" href="/fonts/gilroy/Gilroy-Regular.ttf" />
+        <link rel="stylesheet" href="/fonts/gilroy/Gilroy-medium.ttf" />
+
+
       </Head>
       <body>
         <Main />

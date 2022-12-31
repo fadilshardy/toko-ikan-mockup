@@ -6,10 +6,11 @@ interface IShippingTrackerProps {
 }
 
 const ShippingTracker: React.FunctionComponent<IShippingTrackerProps> = (props) => {
-    return <section className='flex justify-between'>
+    return <div className="flex h-full flex-col lg:flex-row lg:justify-between">
         <DeliveryTracker />
         <ShippingRateChecker />
-    </section>;
+    </div>
+        ;
 };
 
 export default ShippingTracker;
