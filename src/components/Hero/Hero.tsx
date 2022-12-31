@@ -6,17 +6,17 @@ interface IHeroProps {
 
 const Hero: React.FunctionComponent<IHeroProps> = (props) => {
     return <section>
-        <div className="flex lg:justify-between pt-32 lg:flex-row flex-col pb-40">
+        <div className="flex pt-16 lg:pt-32 lg:flex-row flex-col pb-40 relative">
             <div className="w-full flex flex-col items-center lg:items-start mb-32 lg:mb-0">
-                <div className="w-5/6">
-                    <h1 className="font-bold text-5xl">Kirim berbagi jenis ikan dengan mudah</h1>
-                    <p className="text-[#807D7D] pt-8 ">A Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                <div className="max-w-xl">
+                    <h1 className="font-bold text-5xl leading-[70px] tracking-[0.016em] ">Kirim berbagi jenis ikan dengan mudah</h1>
+                    <p className="text-netural pt-8 leading-7 ">A Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
                 </div>
                 <div className="flex pt-16 gap-6">
-                    <div className="relative w-52 h-16">
+                    <div className="relative lg:w-52 lg:h-16 w-36 h-12">
                         <Image src="/images/googleplay-button.svg" alt="Google Playstore Button" loading="lazy" fill={true} />
                     </div>
-                    <div className="relative w-52 h-16">
+                    <div className="relative lg:w-52 lg:h-16 w-36 h-12">
                         <Image src="/images/applestore-button.svg" alt="Applestore Button" loading="lazy" fill={true} />
                     </div>
                 </div>
@@ -31,7 +31,7 @@ const Hero: React.FunctionComponent<IHeroProps> = (props) => {
                     </div>
                 </div>
             </div>
-            <div className="w-full">
+            <div className="w-full hidden lg:block">
                 <div className="relative h-full w-full">
                     <div className=" relative top-0 -right-44 h-4/5 min-w-[calc(120%)]">
                         <Image src="/images/group 108.png" alt="background pattern" fill={true} quality="100" />
@@ -39,8 +39,8 @@ const Hero: React.FunctionComponent<IHeroProps> = (props) => {
                     <div className="absolute -left-2 top-0 h-96 w-[327px] object-contain">
                         <Image src="/images/floating-fish.png" alt="background pattern" fill={true} quality="100" />
                     </div>
-                    <div className="absolute -bottom-40 left-28 h-[887px] w-full z-10">
-                        <Image src="/images/mobileapp-hero.png" alt="background pattern" fill={true} quality="100" className="object-contain" />
+                    <div className="absolute -bottom-40 left-32 h-[887px] w-full">
+                        <Image src="/images/mobileapp-hero.png" alt="Mobile App Hero" fill={true} quality="100" className="object-contain" />
                     </div>
                 </div>
             </div>
