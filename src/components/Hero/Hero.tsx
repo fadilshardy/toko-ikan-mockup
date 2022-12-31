@@ -10,7 +10,7 @@ const Hero: React.FunctionComponent<IHeroProps> = (props) => {
             <div className="w-full flex flex-col items-center lg:items-start mb-32 lg:mb-0">
                 <div className="max-w-xl">
                     <h1 className="font-bold text-5xl leading-[70px] tracking-[0.016em] ">Kirim berbagi jenis ikan dengan mudah</h1>
-                    <p className="text-netural pt-8 leading-7 ">A Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                    <p className="text-netural pt-8 leading-7 ">A Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industryindustry&apos;s</p>
                 </div>
                 <div className="flex pt-16 gap-6">
                     <div className="relative lg:w-52 lg:h-16 w-36 h-12">
