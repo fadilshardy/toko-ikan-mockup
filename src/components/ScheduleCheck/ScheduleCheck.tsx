@@ -16,7 +16,7 @@ const ScheduleCheck: React.FunctionComponent<IScheduleCheckProps> = (props) => {
             <div className="w-full">
                 <div className="relative h-full w-full">
                     <div className="absolute top-0 lg:left-10 -left-10 h-[396px] lg:min-w-[calc(120%)] min-w-[calc(100vh+10vh)] ">
-                        <Image src="/images/group 108.png" alt="background pattern" layout="fill" quality="100" />
+                        <Image src="/images/pattern-right.png" alt="background pattern" layout="fill" quality="100" />
                     </div>
                     <div className="absolute left-5 lg:-left-28 top-0 h-96 w-44 lg:w-[372px]">
                         <Image src="/images/floating-fish-4.png" alt="background pattern" layout="fill" quality="100" className="object-contain" />

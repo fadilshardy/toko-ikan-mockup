@@ -34,7 +34,7 @@ const Hero: React.FunctionComponent<IHeroProps> = (props) => {
             <div className="w-full hidden lg:block">
                 <div className="relative h-full w-full">
                     <div className=" relative top-0 -right-44 h-4/5 min-w-[calc(120%)]">
-                        <Image src="/images/group 108.png" alt="background pattern" layout="fill" quality="100" />
+                        <Image src="/images/pattern-right.png" alt="background pattern" layout="fill" quality="100" />
                     </div>
                     <div className="absolute -left-2 top-0 h-96 w-[327px] object-contain">
                         <Image src="/images/floating-fish.png" alt="background pattern" layout="fill" quality="100" />
